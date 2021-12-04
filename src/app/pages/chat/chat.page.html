@@ -1,0 +1,90 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Chat
+    </ion-title>
+  
+
+    <ion-buttons slot="end">
+      <ion-button>
+    <ion-icon name="search"></ion-icon>
+      </ion-button>
+    <ion-button>
+    <ion-icon name="ellipsis-vertical"></ion-icon>
+    </ion-button>
+    </ion-buttons>
+    
+
+
+</ion-toolbar>
+
+<ion-segment value="Chats">
+  <ion-segment-button value="camera">
+  <ion-icon name="camera"></ion-icon> 
+  </ion-segment-button>
+  <ion-segment-button value="Chats">
+    <ion-label>Chats</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="Calls">
+    <ion-label>Calls</ion-label>
+    </ion-segment-button>
+    </ion-segment>
+
+</ion-header>    
+
+
+<ion-content [fullscreen]="true">
+
+<ion-fab vertical="bottom" horizontal="end" slot="fixed">
+<ion-fab-button tab="chevron-back-circle" routerLink="/homepagina">
+<ion-icon name="chevron-back-circle">
+</ion-icon>
+</ion-fab-button>
+</ion-fab>
+
+<div class="ion-padding">
+  
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="https://cdn-icons-png.flaticon.com/512/194/194917.png" />
+    </ion-avatar>
+    <ion-label>
+      <h2>J. Schopman</h2>
+      <p>Goedemorgen Dokter</p>
+    </ion-label>
+    <ion-label slot="end" class="ion-text-right">
+    <p>29-11-2021</p>
+    <p>&nbsp;</p>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="https://cdn-icons-png.flaticon.com/512/194/194915.png" />
+    </ion-avatar>
+    <ion-label>
+      <h2>Specialist</h2>
+      <p>Bedankt voor de uitleg</p>
+    </ion-label>
+    <ion-label slot="end" class="ion-text-right">
+    <p>28-11-2021</p>
+    <p>&nbsp;</p>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="https://cdn-icons-png.flaticon.com/512/194/194938.png" />
+    </ion-avatar>
+    <ion-label>
+      <h2>Assistente</h2>
+      <p>Goedemorgen ik had een vraag</p>
+    </ion-label>
+    <ion-label slot="end" class="ion-text-right">
+    <p>26-11-2021</p>
+    <p>&nbsp;</p>
+    </ion-label>
+  </ion-item>
+
+</div>
+
+</ion-content>  

@@ -1,0 +1,7 @@
+{
+  "name": "huisartsionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
